@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.normal-width {
+  width: 100%;
+}
+
+.one-third-width {
+  width: 33.33%;
+}
+
+.itemsTableHeader {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.itemsTableHeader div {
+  padding: 10px;
+}
+
+.itemsTableRow div {
+  padding: 10px;
+}
+
+.categoriesSlider {
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.categoriesSlider::-webkit-scrollbar {
+  display: none;
+}
+
+footer a {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #012169;
+}
+
+.homeConnect path {
+  transition: all 0.3s ease-out;
+}
+
+.homeConnect:hover path {
+  stroke: white;
+  /* width: 100px; */
+}
