@@ -1,30 +1,40 @@
-Trustless Sealed Bid Auction 📜
-This repository contains a Trustless Sealed Bid Auction implementation built on the Cairo network. The aim of this project is to enable secure and transparent auctions without the need for intermediary trust.
+# Trustless Sealed Bid Auction 📜
 
-Features ✨
-Trustless: The auction leverages smart contracts on the Cairo network to ensure transparency and trustlessness throughout the bidding and auction process.
-Sealed Bids: Bidders submit sealed bids, ensuring that other participants cannot see their offers, promoting fairness and preventing collusion.
-Decentralized: By utilizing the Cairo network, the auction takes advantage of decentralized infrastructure, eliminating reliance on a central authority.
-Immutable Record: All bid submissions and auction outcomes are stored securely on the Cairo network, creating an immutable record of the auction for auditing purposes.
-Secure and Efficient: The auction design prioritizes security, keeping bidder information confidential, and operates with high efficiency, minimizing transaction costs and delays.
-Installation and Setup 🛠️
-To run this Trustless Sealed Bid Auction locally or deploy it on the Cairo network, follow these steps:
+Bidco is a Trustless Sealed Bid Auction platform that aims to create a seamless and user-friendly online marketplace that connects buyers and sellers across Africa using zk proofs and without the need for intermediary trust.
 
-Clone this repository to your local machine.
+## Vision ✨
+
+To become Africa's leading and most trusted online marketplace powered by cryptocurrency, empowering communities with accessible, efficient, and secure e-commerce platforms.
+
+## Features ✨
+* Trustless: The auction leverages smart contracts and implementations using ZK proofs to ensure transparency and trustlessness throughout the bidding and auction process.
+* Sealed Bids: Bidders submit sealed bids, ensuring that other participants cannot see their offers, promoting fairness and preventing collusion.
+* Decentralized: By utilizing implementations using ZK proofs, the auction takes advantage of decentralized infrastructure, eliminating reliance on a central authority.
+* Immutable Record: All bid submissions and auction outcomes are stored securely, creating an immutable record of the auction for auditing purposes.
+* Secure and Efficient: The auction design prioritizes security, keeping bidder information confidential, and operates with high efficiency, minimizing transaction costs and delays.
+
+## Installation and Setup 🛠️
+
+To run this Trustless Sealed Bid Auction locally or deploy it using implementations of ZK proofs, follow these steps:
+
+* Clone this repository to your local machine.
 
 git clone https://github.com/your-username/your-repository.git
-Install the required dependencies.
+
+* Install the required dependencies.
 
 npm install
-Configure the network settings and deployment parameters in the relevant files.
 
-Compile and deploy the smart contract to the Cairo network.
+* Configure the network settings and deployment parameters in the relevant files.
 
-Run the application and access the auction through the provided user interface.
+* Compile and deploy the smart contract.
+
+* Run the application and access the auction through the provided user interface.
 
 For more detailed instructions on installation, configuration, and deployment, please refer to the Documentation provided in this repository.
 
-Contributing 👥
+## Contributing 👥
+
 Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
 
 Fork this repository and create a new branch for your feature or bug fix.
@@ -34,7 +44,7 @@ Open a pull request, describing your changes and any relevant information.
 License 📄
 This project is licensed under the MIT License.
 
-Contact 📧
+## Contact 📧
 For any questions or inquiries related to this project, feel free to reach out to our team:
 
 Project Lead: Gabriel Agada
